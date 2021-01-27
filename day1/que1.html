@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+
+            console.log(1+"2"+"2");
+            console.log(1+ +"2"+"2");
+            console.log(1+ -"1"+"2");
+            console.log(+"1"+"1"+"2");
+            console.log("A"-"B"+"2");
+            console.log("A"-"B"+2);
+        </script>
+
+    </body>
+</html>
+
+<!-- OUTPUT:
+que1.html:5       122    arithmetic operator + concatinate numbers and two numbers written as characters
+que1.html:6        32    here there is addition of number 1 and 2 which is 3 and then it concatinat with the remaining 2 which is considered as character because it is in ""
+que1.html:7        02    here pawsitive 1 and negative 1 subtracts and become 0 and then concatinate with the remaining 2
+que1.html:8       112    arithmetic operator + concatinate numbers 
+que1.html:9      NaN2    here subtraction of Character A and character B is not possible and it resulted as NaN so then "2" is considerised as character and concatinated
+que1.html:10      NaN    subtraction of character A and Character B is not possible and it is resulted as NaN and number 2 is in integer format so this action cannot be done. -->
